@@ -42,9 +42,13 @@ public class EasyProblems {
 
     public static void P5(){
         String string = "Hello";
-        for(int i = string.length(); i>0; ++i){}{
+        int i = 0;
+        for(i = string.length(); i>-1; --i){}{
+            System.out.println(string.charAt(i-1));
 
         }
+
     }
+
 }
 
